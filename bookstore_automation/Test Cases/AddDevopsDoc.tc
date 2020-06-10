@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddDevopsDoc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d4cb506-c5c1-4437-abec-1f3a3296505d</testCaseGuid>
+   <variable>
+      <defaultValue>'VIM Commands'</defaultValue>
+      <description></description>
+      <id>9fa52aed-fde1-4c75-8432-ca054a30be6c</id>
+      <masked>false</masked>
+      <name>docName</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm'</defaultValue>
+      <description></description>
+      <id>0ac99007-8498-4c6f-b96c-84d4793a6cd7</id>
+      <masked>false</masked>
+      <name>docLink</name>
+   </variable>
+</TestCaseEntity>
