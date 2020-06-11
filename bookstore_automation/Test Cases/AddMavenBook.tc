@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddMavenBook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c16e15b-3540-4662-a2f0-8a0d56c6dcc1</testCaseGuid>
+   <variable>
+      <defaultValue>'VIM book'</defaultValue>
+      <description></description>
+      <id>23568845-02da-4cad-b677-5c9754b721e6</id>
+      <masked>false</masked>
+      <name>bookName</name>
+   </variable>
+   <variable>
+      <defaultValue>'author'</defaultValue>
+      <description></description>
+      <id>a29b8bad-2f4b-4c01-9770-74fcfe3cde0e</id>
+      <masked>false</masked>
+      <name>bookAuthor</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm'</defaultValue>
+      <description></description>
+      <id>0f18dde5-5898-4eb0-a94f-7bd02457fa0e</id>
+      <masked>false</masked>
+      <name>bookLink</name>
+   </variable>
+</TestCaseEntity>

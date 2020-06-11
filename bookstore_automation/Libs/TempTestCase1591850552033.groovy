@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('D:\\Users\\mdsilva\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AddDevopsDoc\\20200610_182943\\execution.properties')
+RunConfiguration.setExecutionSettingFile('D:\\Users\\mdsilva\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AddMavenBook\\20200611_101232\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/AddDevopsDoc', new TestCaseBinding('Test Cases/AddDevopsDoc',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/AddMavenBook', new TestCaseBinding('Test Cases/AddMavenBook',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
