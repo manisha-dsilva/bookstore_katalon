@@ -9,4 +9,9 @@
       <initValue>'http://135.254.163.44:4200'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test'</initValue>
+      <name>test</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

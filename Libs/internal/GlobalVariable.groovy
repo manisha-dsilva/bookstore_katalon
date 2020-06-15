@@ -18,15 +18,22 @@ public class GlobalVariable {
      */
     public static Object url
      
+    /**
+     * <p></p>
+     */
+    public static Object test
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['url' : 'http://135.254.163.44:4200'])
+        allVariables.put('default', ['url' : 'http://135.254.163.44:4200', 'test' : 'test'])
+        allVariables.put('New Profile', allVariables['default'] + [:])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
         url = selectedVariables['url']
+        test = selectedVariables['test']
         
     }
 }
