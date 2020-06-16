@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/AddNewDocument'))
 WebUI.sendKeys(findTestObject('Object Repository/InputDocumentName'), docName)
 WebUI.sendKeys(findTestObject('Object Repository/InputDocumentLink'), docLink)
 
-WebUI.click(findTestObject('Object Repository/selectType'))
+WebUI.click(findTestObject('Object Repository/selectType2'))
 WebUI.click(findTestObject('Object Repository/jenkinsType'))
 
 WebUI.click(findTestObject('Object Repository/saveButton'))
