@@ -14,4 +14,9 @@
       <initValue>'test'</initValue>
       <name>test</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abc'</initValue>
+      <name>abc</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
