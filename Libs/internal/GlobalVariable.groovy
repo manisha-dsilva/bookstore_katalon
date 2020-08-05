@@ -19,6 +19,11 @@ public class GlobalVariable {
      */
     public static Object test
      
+    /**
+     * <p></p>
+     */
+    public static Object gg
+     
 
     static {
         try {
@@ -28,6 +33,7 @@ public class GlobalVariable {
     
             url = selectedVariables['url']
             test = selectedVariables['test']
+            gg = selectedVariables['gg']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
